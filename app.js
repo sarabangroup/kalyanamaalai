@@ -68,6 +68,6 @@ app.post('/', upload.single('image'), (req, res, next) => {
 });
 
 // Server start
-app.listen(80, () => {
+app.listen(3000, () => {
     console.log('Server started on http://localhost:3000');
 });
